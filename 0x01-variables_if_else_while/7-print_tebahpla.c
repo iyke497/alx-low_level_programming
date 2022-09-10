@@ -15,4 +15,6 @@ int main(void)
 			putchar('\n');
 		c--;
 	} while (c > 96);
+
+	return (0);
 }
