@@ -11,7 +11,8 @@ int main(void)
 	int c = 97;
 
 	do {
-		putchar("%c", c);
+		putchar(c);
+		putchar('\n');
 		c++;
 	} while (c < 123);
 
