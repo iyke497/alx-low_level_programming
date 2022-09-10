@@ -21,7 +21,7 @@ int main(void)
 	do {
 		putchar(uc);
 		if (uc == 90)
-			putchar('\n')
+			putchar('\n');
 		uc++;
 	} while (uc < 91);
 	return (0);
