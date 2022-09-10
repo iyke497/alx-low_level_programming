@@ -12,9 +12,13 @@ int main(void)
 
 	do {
 		if (lc != 101 && lc != 113)
+		{
 			putchar(lc);
 			if (lc == 122)
+			{
 				putchar('\n');
+			}
+		}
 		lc++;
 	} while (lc < 123);
 
