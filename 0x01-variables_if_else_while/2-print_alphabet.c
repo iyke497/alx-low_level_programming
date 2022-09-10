@@ -12,7 +12,8 @@ int main(void)
 
 	do {
 		putchar(c);
-		putchar('\n');
+		if (c == 122)
+			putchar('\n');
 		c++;
 	} while (c < 123);
 
