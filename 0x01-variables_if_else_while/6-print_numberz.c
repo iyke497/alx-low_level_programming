@@ -7,12 +7,13 @@
  */
 int main(void)
 {
-	int i = 0;
+	int i = '0';
 
 	do {
 		putchar(i);
-		if (i == 9)
+		if (i == '9')
 			putchar('\n');
-	} while (i < 10);
+		i++;
+	} while (i <= '9');
 	return (0);
 }
