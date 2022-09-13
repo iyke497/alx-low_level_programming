@@ -1,23 +1,20 @@
 #include "main.h"
+
 /**
- * print_putchar - Prints _putchar to stdout
+ * print_putchar - Prints the chars of the string putchar
  *
- * Return: Always (0) Success
+ * Return: Success (0)
  */
 int print_putchar(void)
 {
-	/*Initialize the string*/
-	char lib[9] = "_putchar";
+	char str[9] = "_putchar";
+	int c = 0;
 
-	int i = 0;
-
-	while (i < 9)
-	{
-		_putchar(lib[i]);
-		if (i == 8)
-			_putchar('\n');
-		i++;
-	}
+	do {
+		_putchar(str[c]);
+		c++;
+	} while (c < 9);
 
 	return (0);
 }
+
