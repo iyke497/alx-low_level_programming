@@ -16,7 +16,7 @@ int print_alphabet_x10(void)
 		print_alphabet();
 		i++;
 	}
-	
+
 	return (0);
 }
 /**
