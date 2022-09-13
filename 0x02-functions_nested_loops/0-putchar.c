@@ -1,10 +1,10 @@
 #include "main.h"
 /**
- * main - Entry point
+ * print_putchar - Prints _putchar to stdout
  *
  * Return: Always (0) Success
  */
-int main(void)
+int print_putchar(void)
 {
 	/*Initialize the string*/
 	char lib[9] = "_putchar";
