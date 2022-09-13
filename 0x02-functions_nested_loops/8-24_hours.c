@@ -7,13 +7,13 @@
  */
 void jack_bauer(void)
 {
-	int hr, min = 00;
+	int hr, min = 48;
 
-	while (hr < 24)
+	while (hr < 5052)
 	{
 		_putchar(hr);
 
-		while (min < 60)
+		while (min < 5448)
 		{
 			_putchar(min);
 			min++;
