@@ -8,8 +8,6 @@
  */
 int _isalpha(int c)
 {
-	int c;
-
 	/*Lowercase check*/
 	if (c > 64 && c < 123)
 	{
