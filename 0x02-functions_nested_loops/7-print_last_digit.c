@@ -2,7 +2,7 @@
 
 /**
  * print_last_digit - Prints the last digit of a number
- * @int: Tpe of parameter to be printed
+ * @i: Type of parameter to be printed
  *
  * Return: Value of last digit.
  */
@@ -14,5 +14,5 @@ int print_last_digit(int i)
 
 	_putchar(lastdigit);
 
-	return lastdigit;
+	return (lastdigit);
 }
