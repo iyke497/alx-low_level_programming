@@ -11,3 +11,17 @@ int _putchar(char c)
 {
 		return (write(1, &c, 1));
 }
+
+int print_alphabet(void)
+{
+	int lc = 97;
+
+	do {
+		_putchar(lc);
+		if (lc == 122)
+			_putchar('\n');
+		lc++;
+	} while (lc < 123);
+
+	return (0);
+}
