@@ -10,9 +10,9 @@ int _abs(int i)
 {
 	int val;
 
-	if (i < 0)
+	if (i < '0')
 	{
-		val = (i * -1);
+		val = (i * '-1');
 		_putchar(val);
 	}
 	else
