@@ -7,13 +7,15 @@
  */
 int print_putchar(void)
 {
-	char str[9] = "_putchar";
-	int c = 0;
-
-	do {
-		_putchar(str[c]);
-		c++;
-	} while (c < 9);
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
+	_putchar('\n');
 
 	return (0);
 }
