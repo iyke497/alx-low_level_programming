@@ -8,17 +8,11 @@
  */
 int _abs(int i)
 {
-	int val;
 
-	if (i < '0')
+	if (i >= 0)
 	{
-		val = (i * -1);
-		_putchar((int)val);
-	}
-	else
-	{
-		_putchar((int)i);
-	}
+		return(i);
 
-	return (0);
+	}
+	return (-i);
 }
