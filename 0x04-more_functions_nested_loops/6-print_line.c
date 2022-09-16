@@ -10,6 +10,8 @@ void print_line(int n)
 
 	do {
 		_putchar('_');
+		if (i == (n - 1))
+			_putchar('\n');
 		i++;
 	} while (i < n);
 }
